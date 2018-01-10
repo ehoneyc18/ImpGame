@@ -1,0 +1,180 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>Earl Honeycutt's Imp</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>ehoneyc</username>
+
+<numberOfGhosts>10</numberOfGhosts>
+
+<view>
+  <width>640</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1280</width>
+  <height>480</height>
+</world>
+
+<hud>
+  <originx>430</originx>
+  <originy>10</originy>
+  <width>200</width>
+  <height>120</height>
+  <line1>Toggle HUD: F1</line1>
+  <line2>Fly: WASD</line2>
+  <line3>Shoot: Space</line3>
+  <line4>God mode: G</line4>
+</hud>
+
+<bullethud>
+  <originx>430</originx>
+  <originy>10</originy>
+  <width>200</width>
+  <height>80</height>
+</bullethud>
+
+<bg1>
+  <file>assets/bg1s.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</bg1>
+
+<bg2>
+  <file>assets/bg2s.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</bg2>
+
+<bg3>
+  <file>assets/bg3s.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</bg3>
+
+<lights>
+  <file>assets/lightss.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</lights>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Bat>
+  <file>assets/bat2right.png</file>
+  <startLoc x="50" y="442"/>
+  <frames>3</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>200</speedX>
+  <speedY>150</speedY>
+  <transparency>false</transparency>
+  <bullet>pBullet</bullet>
+  <chunk>
+    <size>9</size>
+    <distance>50</distance>
+  </chunk>
+</Bat>
+
+<BatLeft>
+  <file>assets/bat2left.png</file>
+  <startLoc x="50" y="442"/>
+  <frames>3</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>200</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+</BatLeft>
+
+<Ghost>
+  <file>assets/ghostright.png</file>
+  <startLoc x="1050" y="190"/>
+  <frames>3</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>150</speedX>
+  <speedY>25</speedY>
+  <safeDistance>100</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>50</distance>
+  </chunk>
+</Ghost>
+
+<GhostLeft>
+  <file>assets/ghostleft.png</file>
+  <startLoc x="500" y="0"/>
+  <frames>3</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>60</frameInterval>
+  <speedX>150</speedX>
+  <speedY>25</speedY>
+  <safeDistance>100</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>50</distance>
+  </chunk>
+</GhostLeft>
+
+<Boss>
+  <file>assets/boss.png</file>
+  <startLoc x="1100" y="190"/>
+  <frames>3</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>200</frameInterval>
+  <speedX>50</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+  <bullet>bBullet</bullet>
+  <chunk>
+    <size>20</size>
+    <distance>200</distance>
+  </chunk>
+</Boss>
+
+
+<pBullet>
+  <file>assets/pbullet.png</file>
+  <interval>200</interval>
+  <distance>300</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</pBullet>
+
+<bBullet>
+  <file>assets/bbullet.png</file>
+  <interval>220</interval>
+  <distance>600</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>250</minSpeedX>
+  <speedX>250</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</bBullet>
+
+</GameData>
